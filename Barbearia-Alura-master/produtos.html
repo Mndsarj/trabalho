@@ -1,0 +1,107 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Produtos | Barbearia Alura</title>
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/header.css">
+        <link rel="stylesheet" href="assets/css/footer.css">
+        <link rel="stylesheet" href="assets/css/produtos.css">
+        <link rel="stylesheet" href="assets/css/medias.css">
+        <link rel="stylesheet" href="assets/css/body.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+        <style>
+            /* Diminuir tamanho das imagens dos produtos */
+            .produtos img {
+                width: 150px;      /* Largura menor */
+                height: auto;      /* Mantém proporção */
+                display: block;
+                margin: 0 auto;    /* Centraliza horizontalmente */
+            }
+
+            /* Cores preto e vinho no site */
+            body {
+                background-color: #000000; /* fundo preto */
+                color: #800020;            /* texto vinho */
+                font-family: 'Montserrat', sans-serif;
+            }
+
+            header, footer {
+                background-color: #800020; /* fundo vinho */
+                color: #ffffff;            /* texto branco */
+            }
+
+            nav ul li a {
+                color: #ffffff;            /* links no header em branco */
+                text-decoration: none;
+            }
+
+            nav ul li a:hover {
+                color: #ffcccc;            /* tom vinho claro ao passar o mouse */
+            }
+
+            h1, h2, h3 {
+                color: #800020; /* títulos vinho */
+            }
+
+            .produtos li {
+                border: 1px solid #800020;
+                padding: 15px;
+                margin-bottom: 20px;
+                background-color: #1a000d; /* vinho bem escuro para o fundo dos produtos */
+                border-radius: 8px;
+            }
+
+            footer p {
+                margin: 10px 0;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <a href="#conteudoPrincipal">Pular para o conteúdo principal</a>
+            <div class="caixa">
+                <img src="assets/img/8084990-emblema-de-motociclista-de-caveira-vetor-removebg-preview.png" alt="Logo da barbearia Alura">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <ul class="produtos">
+                <li>
+                    <h1>Harley-Davison-Sporster</h1>
+                    <img src="assets/img/Harley-Davison-Sportster.jpeg" alt>
+                    <h2 class="produto-descricao">Projetada para emocionar, a Sportster™ S é construída em torno do potente motor Revolution™ Max 1250T, que produz 121 cv de potência e 12 kgf.m de torque.
+                         Com eletrônica de assistência ao piloto, manuseio otimizado e um chassi leve, essa Sportster de última geração é focada em desempenho.</h2>
+                    <h3 class="produtos-preco">R$  129.700</h3>
+                </li>
+                <li>
+                    <h1>Honda-Shadow-750</h1>
+                    <img src="assets/img/Honda-Shadow-750.jpeg">
+                    <h2 class="produto-descricao">Equipada com um motor V-Twin de 745 cc refrigerado a liquido, a Honda Shadow 750 foi criada motociclistas que querem vivenciar longas viagens, mas sem comprometer o prazer de condução em trajetos urbanos.
+                         O sistema de transmissão de 5 velocidades combinado a um eixo cardã, reduz a necessidade de manutenções frequentes.</h2>
+                    <h3 class="produtos-preco">R$ 42.800</h3>
+                </li>
+                <li>
+                    <h1>Kawasaki-Vulcn-900</h1>
+                    <img src="assets/img/Kawasaki-Vulcan-900.jpeg">
+                    <h2 class="produto-descricao">A Kawasaki Vulcan 900 - nas suas versões Classic e Custom e Classic LT - chama a atenção pelo seu design moderno. Seja para longas viagens, para uso urbano ou simplesmente estacionada, a Vulcan 900 certamente será motivo de orgulho para o seu proprietário. O motor de dois cilindros dispostos em V foi configurado para garantir um excelente torque a baixas rotações. O módulo ECU controla os sub-aceleradores que estão localizados atrás da válvula do acelerador principal,
+                         permitindo que o sistema de injeção eletrônica digital ofereça respostas mais precisas, de forma semelhante a um carburador de velocidade constante.</h2>
+                    <h3 class="produtos-preco">R$ 42.900,00</h3>
+                </li>
+            </ul>
+        </main>
+
+        <footer>
+            <img src="assets/img/8084990-emblema-de-motociclista-de-caveira-vetor-removebg-preview.png" alt="Logo barbearia Alura">
+            <p class="Copyright">&copy;Copyright Pacto Sobre Rodas</p>
+        </footer>
+    </body>
+</html>
